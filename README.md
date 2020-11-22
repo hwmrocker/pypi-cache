@@ -19,8 +19,14 @@ PYTHONTRACEMALLOC=1 PYTHONASYNCIODEBUG=1 python app.py
 pip install -i http://localhost:8000/simple flask
 ```
 
+## what is this already doing
+
+[x] transparent proxy to public pypi
+[x] caching result in memory
+
 ## TODO:
 
-* cache files locally
+* cache files locally on disk
+* expire cache
 * log stats
 * compile wheels automatically

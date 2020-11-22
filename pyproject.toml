@@ -1,15 +1,13 @@
 [tool.poetry]
 name = "pypi-cache"
 version = "0.1.0"
-description = "A pypi cache proxy"
+description = "A PyPI caching proxy"
 authors = ["Olaf Gladis <olaf.gladis@trivago.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-starlette = "^0.14.1"
-vibora = "^0.0.6"
-sanic = "^20.9.1"
+sanic = "*"
 aiohttp = "^3.7.3"
 
 [tool.poetry.dev-dependencies]
