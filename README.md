@@ -22,11 +22,12 @@ pip install -i http://localhost:8000/simple flask
 ## what is this already doing
 
 [x] transparent proxy to public pypi
-[x] caching result in memory
+[x] caching package files in memory
+[x] dumping packages on disk, 
+[x] loading files from disk, when they are not in memory
 
 ## TODO:
 
-* cache files locally on disk
 * expire cache
 * log stats
 * compile wheels automatically
