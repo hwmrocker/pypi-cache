@@ -12,6 +12,8 @@ aiohttp = "^3.7.3"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^20.8b1", allow-prereleases = true}
+reorder-python-imports = "^2.3.6"
+pyupgrade = "^2.7.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
