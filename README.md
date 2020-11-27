@@ -29,5 +29,9 @@ pip install -i http://localhost:8000/simple flask
 ## TODO:
 
 - [ ] expire cache
+- [ ] use cache when package is requested in parallel
+    We should not download / request it twice, and the second one should return the whole package.
+- [ ] make the io calls to the file system also async (maybe with curio?)
 - [ ] log stats
 - [ ] compile wheels automatically
+- [ ] add local wheels to the list in /simple/<package>
